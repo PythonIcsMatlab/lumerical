@@ -1,0 +1,21 @@
+# get raw matrix data from the simulation
+
+mname="monitor_2";       # monitor name
+
+x=getdata(mname,"x");      # position vectors associated with Ex fields
+
+y=getdata(mname,"y");      # position vectors associated with Ex fields
+
+Ex=getdata(mname,"Ex");     # Ex fields at monitor
+
+T=transmission(mname);     # Power transmission through monitor
+
+ 
+
+# save matrix variables x, y, Ex, T and i to a data file
+
+i=1;
+
+filename="results_"+num2str(i); # set filename. i could be a loop counter variable.
+
+matlabsave(filename, x,y,Ex[1,1,1,1],T,i); 

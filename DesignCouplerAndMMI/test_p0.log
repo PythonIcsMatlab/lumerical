@@ -1,0 +1,87 @@
+FDTD Solutions Version 8.11.337 (Windows 64bit)
+ expires (month/day/year): 1/1/2025
+current time: Mon Nov 21 01:54:30 2016
+Running on host: SPROOT
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:/Users/root/Desktop/hw2/test.fsp
+number of processors is 4
+processors are distributed as: 2x1x2
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 74 x 64 x 46
+Refined 7122 mesh cells (3.26913%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 74 x 64 x 46
+Refined 7048 mesh cells (3.23516%)
+Completed meshing!
+Meshing complete in 1 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 74 x 64 x 46
+Refined 7191 mesh cells (3.3008%)
+Completed meshing!
+Meshing complete in 1 seconds of CPU time
+finished material properties
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Mode Source propagating in Z
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 44675 total iterations
+0% complete. Max time remaining: 15 mins, 15 secs. Auto Shutoff: 1
+1% complete. Max time remaining: 14 mins, 5 secs. Auto Shutoff: 1
+2% complete. Max time remaining: 13 mins, 46 secs. Auto Shutoff: 0.331935
+3% complete. Max time remaining: 13 mins, 33 secs. Auto Shutoff: 0.0900536
+4% complete. Max time remaining: 13 mins, 22 secs. Auto Shutoff: 0.0353789
+5% complete. Max time remaining: 13 mins, 13 secs. Auto Shutoff: 0.0172677
+6% complete. Max time remaining: 13 mins, 8 secs. Auto Shutoff: 0.00815642
+7% complete. Max time remaining: 13 mins, 5 secs. Auto Shutoff: 0.00540992
+8% complete. Max time remaining: 12 mins, 59 secs. Auto Shutoff: 0.00248834
+9% complete. Max time remaining: 12 mins, 56 secs. Auto Shutoff: 0.00141232
+10% complete. Max time remaining: 12 mins, 59 secs. Auto Shutoff: 0.00148718
+11% complete. Max time remaining: 13 mins, 5 secs. Auto Shutoff: 0.000534097
+12% complete. Max time remaining: 13 mins, 13 secs. Auto Shutoff: 0.000683904
+13% complete. Max time remaining: 13 mins, 16 secs. Auto Shutoff: 0.000321828
+14% complete. Max time remaining: 13 mins, 17 secs. Auto Shutoff: 0.000301874
+15% complete. Max time remaining: 13 mins, 14 secs. Auto Shutoff: 0.00013184
+16% complete. Max time remaining: 13 mins, 12 secs. Auto Shutoff: 0.000122037
+17% complete. Max time remaining: 13 mins, 4 secs. Auto Shutoff: 9.15311e-005
+18% complete. Max time remaining: 12 mins, 52 secs. Auto Shutoff: 6.14882e-005
+19% complete. Max time remaining: 12 mins, 40 secs. Auto Shutoff: 7.78728e-005
+20% complete. Max time remaining: 12 mins, 28 secs. Auto Shutoff: 4.18588e-005
+21% complete. Max time remaining: 12 mins, 15 secs. Auto Shutoff: 4.71909e-005
+22% complete. Max time remaining: 12 mins, 2 secs. Auto Shutoff: 2.83442e-005
+23% complete. Max time remaining: 11 mins, 50 secs. Auto Shutoff: 2.41927e-005
+24% complete. Max time remaining: 11 mins, 38 secs. Auto Shutoff: 3.36278e-005
+25% complete. Max time remaining: 11 mins, 26 secs. Auto Shutoff: 1.42798e-005
+26% complete. Max time remaining: 11 mins, 15 secs. Auto Shutoff: 2.02946e-005
+27% complete. Max time remaining: 11 mins, 6 secs. Auto Shutoff: 1.37452e-005
+28% complete. Max time remaining: 10 mins, 56 secs. Auto Shutoff: 1.20939e-005
+29% complete. Max time remaining: 10 mins, 45 secs. Auto Shutoff: 1.52369e-005
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 13094 iterations, or 2.93098e-013s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Injecting in positive direction
+Finished collecting data
+Simulation completed successfully at: Mon Nov 21 01:59:00 2016
+Overall wall time measurements in seconds:
+    time to mesh and initialize: 4
+    time to run FDTD simulation: 266
+    time to finalize data and save to files: 0
+    FDTD solver speed: 10.7241 Mnodes/s
+    total FDTD solver speed on 4 processes: 42.8963 Mnodes/s
